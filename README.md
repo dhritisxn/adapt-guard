@@ -17,6 +17,7 @@ construction, rolling retraining, a hyperparameter sweep, and unit tests.
 ## Start here
 
 - `PRESENTATION_NOTES.md` — everything needed to present the project.
+- `DEMO_GUIDE.md` — step-by-step live demo script with expected outputs.
 - `docs/00_status.md` — what's done, and corrections to earlier reviews.
 - `docs/06_results/results_summary.md` — all benchmark findings.
 - `docs/06_results/plots/architecture_diagram.png` — pipeline diagram.

@@ -52,7 +52,8 @@ def main():
         if i < len(stream_rows) - 1:
             time.sleep(interval)
     print("Replay complete. Score this batch for real with, e.g.:")
-    print(f"  ./build/serial --data {args.data} --score-n {n_train + args.n} "
+    # --score-n counts streamed rows (from the train/stream boundary), not absolute row ids.
+    print(f"  ./build/serial --data {args.data} --score-n {args.n} "
           f"--adaptive --explain integrated --out /tmp/demo_out.csv")
 
 
