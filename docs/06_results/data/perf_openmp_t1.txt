@@ -1,0 +1,22 @@
+# started on Wed Sep 16 06:59:30 2026
+
+
+ Performance counter stats for './build/openmp --data data/creditcard.csv --trees 100 --psi 256 --seed 42 --score-n 100000 --contamination 0.01 --threads 1':
+
+           3709.14 msec task-clock                       #    1.003 CPUs utilized             
+                20      context-switches                 #    5.392 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+             24155      page-faults                      #    6.512 K/sec                     
+        7197018967      cycles                           #    1.940 GHz                       
+       14831515841      instructions                     #    2.06  insn per cycle            
+          18642764      cache-references                 #    5.026 M/sec                     
+          11659242      cache-misses                     #   62.54% of all cache refs         
+        3059865094      branch-instructions              #  824.953 M/sec                     
+          57736097      branch-misses                    #    1.89% of all branches           
+
+       3.699624058 seconds time elapsed
+
+       3.343021000 seconds user
+       0.365642000 seconds sys
+
+

@@ -1,0 +1,22 @@
+# started on Wed Sep 16 06:59:40 2026
+
+
+ Performance counter stats for 'mpirun -np 8 --oversubscribe ./build/mpi --data data/creditcard.csv --trees 100 --psi 256 --seed 42 --score-n 100000 --contamination 0.01':
+
+          26621.41 msec task-clock                       #    6.980 CPUs utilized             
+              9305      context-switches                 #  349.531 /sec                      
+               867      cpu-migrations                   #   32.568 /sec                      
+            204813      page-faults                      #    7.694 K/sec                     
+       64623320624      cycles                           #    2.427 GHz                       
+      110013293466      instructions                     #    1.70  insn per cycle            
+         126723808      cache-references                 #    4.760 M/sec                     
+          67680670      cache-misses                     #   53.41% of all cache refs         
+       23120237274      branch-instructions              #  868.483 M/sec                     
+         209406526      branch-misses                    #    0.91% of all branches           
+
+       3.814072087 seconds time elapsed
+
+      22.542387000 seconds user
+       4.130526000 seconds sys
+
+

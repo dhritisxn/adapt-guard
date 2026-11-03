@@ -1,0 +1,8 @@
+data/*.csv
+data/*.zip
+build/
+*.o
+*.obj
+__pycache__/
+*.pyc
+.vs/
