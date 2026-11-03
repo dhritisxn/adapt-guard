@@ -1,0 +1,8 @@
+# Keep Unix line endings so scripts and sources run unchanged under Linux/WSL
+*.sh text eol=lf
+*.py text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.cu text eol=lf
+Makefile text eol=lf
+*.png binary
